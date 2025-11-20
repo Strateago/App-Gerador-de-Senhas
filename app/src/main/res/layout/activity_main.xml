@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="24dp"
+android:gravity="center_horizontal"
+tools:context=".MainActivity">
+
+<ImageView
+    android:id="@+id/product_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/text_logo" />
+
+<TextView
+    android:id="@+id/textView_date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="10dp"
+    android:text="Data Selecionada:" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Versão DD/MM:" />
+
+<TextView
+    android:id="@+id/textView_password_DDMM"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="40sp"
+    android:textStyle="bold"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:text="SENHA" />
+
+<Button
+    android:id="@+id/button_copy_DDMM"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Copiar Senha"
+    android:layout_marginBottom="32dp"
+    android:enabled="false"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Versão MM/DD:" />
+
+<TextView
+    android:id="@+id/textView_password_MMDD"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="40sp"
+    android:textStyle="bold"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:text="SENHA" />
+
+<Button
+    android:id="@+id/button_copy_MMDD"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Copiar Senha"
+    android:layout_marginBottom="32dp"
+    android:enabled="false"/>
+
+<Button
+    android:id="@+id/button_select_date"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:text="Selecionar Outra Data" />
+
+<Button
+    android:id="@+id/reset_date"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Voltar para data atual" />
+</LinearLayout>
